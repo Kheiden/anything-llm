@@ -158,6 +158,11 @@ Mintplex Labs & the community maintain a number of deployment methods, scripts, 
 
 ## How to setup for development
 
+### Windows
+- copy `package.json.windows` to `package.json` before running the below commands
+
+### Mac/Linux
+
 - `yarn setup` To fill in the required `.env` files you'll need in each of the application sections (from root of repo).
   - Go fill those out before proceeding. Ensure `server/.env.development` is filled or else things won't work right.
 - `yarn dev:server` To boot the server locally (from root of repo).
